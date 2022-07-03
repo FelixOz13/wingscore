@@ -67,7 +67,7 @@ const Section = styled.section`
     .info {
       position: absolute;
       top: 20%;
-      right: 28%;
+      right: 10%;
       display: flex;
       flex-direction: column;
       align-items: flex-end;
