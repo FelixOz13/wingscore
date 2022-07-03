@@ -96,6 +96,7 @@ export default function Navbar() {
 
 const Nav = styled.nav`
   display: flex;
+  background-color:black;
   justify-content: space-between;
   align-items: center;
   padding: 0 4vw;

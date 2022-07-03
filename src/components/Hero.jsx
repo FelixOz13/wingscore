@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="info">
           <h2>Bienvenido</h2>
           <h5>
-            Ven y Desayuna en un Lugar muy exlcusivo de Guadalajara con 50 años de Tradicion
+            Ven y Desayuna en un Lugar muy exlcusivo con 50 años de Tradicion
           </h5>
           
         </div>
@@ -48,7 +48,7 @@ const Section = styled.section`
     width: 100%;
     .sale {
       position: relative;
-      left: 10%;
+      left: 5%;
       img {
         height: 70vh;
       }
@@ -66,8 +66,8 @@ const Section = styled.section`
     }
     .info {
       position: absolute;
-      top: 5%;
-      left: 20%;
+      top: 20%;
+      right: 28%;
       display: flex;
       flex-direction: column;
       align-items: flex-end;

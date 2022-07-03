@@ -158,7 +158,7 @@ const Section = styled.footer`
   }
 `;
 
-const LowerFooter = styled.div`
+styled.div`
   margin: 0;
   text-align: center;
   background-color: black;

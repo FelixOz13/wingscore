@@ -99,9 +99,9 @@ const Section = styled.section`
           max-height: 55rem;
           
           img {
-            margin-top: 3.5vw;
+            margin-top: 8.5vw;
             height: 40rem;
-            width: 25rem;
+            width: 20rem;
             
              
           }

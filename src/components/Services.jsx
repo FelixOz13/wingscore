@@ -9,7 +9,7 @@ export default function Services() {
     <Section id="services">
       <div className="title">
         <h1 className="yellow">Lopez Cotilla #2171
-        Col.Arcos Vallarta, Guadalajara, Jalisco</h1>
+        Col. Arcos Vallarta, Guadalajara, Jalisco</h1>
         <p>
           Ven y Prueba Desayunos Tipicos e Internacionales,
           Jugos 100% Naturales Elaborados  a Diario y con Los Mas Frescos Citricos. Pan Hecho en Casa Y  el mejor café gourmet de grano.
