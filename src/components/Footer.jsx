@@ -53,7 +53,7 @@ export default function Footer() {
           </div>
           <p>+52 (33)615-36-41</p>
           <p>+52 (33)615-06-14</p>
-          <p>ouirestauranty@yahoo.com</p>
+          <p>ouirestaurant@yahoo.com</p>
           <p>Lopez Cotilla # 2171
             Col.Arcos Vallarta,
           Zapopan, Jalisco C.P 44130</p>

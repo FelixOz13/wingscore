@@ -29,7 +29,7 @@ export default function Services() {
         <div className="service yellow">
           <img src={Services1} alt="" />
           <p>
-            Jugos 100% Naturales. <span>Jugos Citricos Frescos</span>{" "}
+            Jugos Naturales <span>elaborados con Citricos Frescos</span>{" "}
              100% Naturales preparados diario.
           </p>
           
