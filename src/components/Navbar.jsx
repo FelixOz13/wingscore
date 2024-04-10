@@ -45,9 +45,6 @@ export default function Navbar() {
           <li>
             <a href="#newsletter">Reservaciones</a>
           </li>
-           <li>
-            <a href= "https://oui-sugerencias.netlify.app/">Sugerencias</a>
-          </li>
         </ul>
       </Nav>
       <ResponsiveNav state={navbarState} className={navbarState ? "show" : ""}>
@@ -81,11 +78,6 @@ export default function Navbar() {
           <li>
             <a href="#newsletter" onClick={() => setNavbarState(false)}>
               Reservaciones
-            </a>
-          </li>
-           <li>
-            <a href="https://oui-sugerencias.netlify.app/" onClick={() => setNavbarState(false)}>
-              Sugerencias
             </a>
           </li>
         </ul>
