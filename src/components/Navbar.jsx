@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import foodYummy from "../assets/FoodYummy.png";
+import foodYummy from "../assets/logo.png";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { VscChromeClose } from "react-icons/vsc";
 export default function Navbar() {
@@ -11,7 +11,7 @@ export default function Navbar() {
     <>
       <Nav>
         <div className="brand">
-          <img src={foodYummy} alt="Icon"  />
+          <img src={foodYummy} alt="Icon" style={{ width: "160px", borderRadius:'80px', border:'groove', borderWidth:'5px' ,borderColor:'yellow'}} />
           <div className="toggle">
             {navbarState ? (
               <VscChromeClose onClick={() => setNavbarState(false)} />

@@ -1,19 +1,19 @@
 import React from "react";
 import styled from "styled-components";
 
-import menu1 from "../assets/ouimenu6.png";
-import menu2 from "../assets/ouimenu2.png";
-import menu3 from "../assets/ouimenu4.jpg";
-import menu4 from "../assets/ouimenu5.png";
-import menu5 from "../assets/ouimenu3.png";
+import menu1 from "../assets/menu1.jpeg";
+import menu2 from "../assets/menu2.jpeg";
+import menu3 from "../assets/menu3.jpeg";
+import menu4 from "../assets/menu4.jpeg";
+import menu5 from "../assets/menu5.jpeg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
 export default function Testimonials() {
   return (
     <Section id="testimonials">
       <div className="container">
-        <div className="title">
+        <div className="title" style={{ marginTop: "50px" }}>
           <h1>
-            <span>Nuestro Menu Completo</span>
+            <span>Nuestro Menu</span>
           </h1>
         </div>
 
@@ -70,7 +70,7 @@ const Section = styled.section`
       top: -5rem;
       left: 25%;
       padding: 0 2rem;
-      background-color: goldenrod;
+      background-color:black;
     }
     .testimonials {
       display: flex;

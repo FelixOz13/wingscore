@@ -1,27 +1,27 @@
 import React from "react";
 import styled from "styled-components";
-import Services1 from "../assets/Services1.png";
-import Services2 from "../assets/Services2.png";
-import Services3 from "../assets/Services3.png";
+import Services1 from "../assets/mug.png";
+import Services2 from "../assets/wingsicon.png";
+import Services3 from "../assets/pizzaicon.png";
 import { TitleStyles } from "./ReusableStyles";
 export default function Services() {
   return (
     <Section id="services">
       <div className="title">
-        <h1 className="yellow">Lopez Cotilla #2171
-        Col. Arcos Vallarta, Guadalajara, Jalisco</h1>
+        <h1 className="yellow">
+        Av Aztlán 3588-Int 13, Cd del Sol, 45050 Zapopan, Jal.</h1>
         <p>
-          Ven y Prueba Desayunos Tipicos e Internacionales,
-          Jugos 100% Naturales Elaborados  a Diario y con Los Mas Frescos Citricos. Pan Hecho en Casa Y  el mejor café gourmet de grano.
+          Ven a disfrutar de los partidos y deportes mas emocionantes del momento,
+          Cerveza Fria , Variedad de Sabores en Alitas, Hamburguesas deliciosas, Pizzas y mucho mas , Ven a Probar.
         </p>
       </div>
       <div className="services">
         <div className="service">
           <img src={Services2} alt="" />
           <p>
-            Amplio Menu para Desayunar<br/>
-             <span>Chilaquiles Famosos de la Casa Chica</span>{" "} y
-            Desayunos Tipicos 
+            Pizzas Hechas en Casa con Variedad de Ingredientes<br/>
+             <span>Alitas, Pizzas, Hamburguesas y Mucho mas</span>{" "} 
+          
           </p>
           
           
@@ -29,8 +29,8 @@ export default function Services() {
         <div className="service yellow">
           <img src={Services1} alt="" />
           <p>
-            Jugos Naturales <span>elaborados con Citricos Frescos</span>{" "}
-             100% Naturales preparados diario.
+            Cervezas Frias Importadas y Nacionales <span>Prueba nuestras promociones en Cerveza de Barril</span>{" "}
+             500ml y Litros.
           </p>
           
          
@@ -39,8 +39,8 @@ export default function Services() {
         <div className="service">
           <img src={Services3} alt="" />
            <p>
-            Cafe de Granos Organicos. y Pan Hecho en Casa{" "}
-            para un buen despertar.
+            Variedad de Sabores en Alitas. y Pizzas Hechas en Casa{" "}
+            para disfrutar de una tarde excepcional.
           </p>
           
         </div>

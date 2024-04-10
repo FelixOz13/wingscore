@@ -1,36 +1,36 @@
 import React from "react";
 import styled from "styled-components";
-import product1 from "../assets/product1.jpg";
-import product2 from "../assets/product2.jpg";
-import product3 from "../assets/product3.jpg";
-import product4 from "../assets/product4.jpg";
+import product1 from "../assets/product1.jpeg";
+import product2 from "../assets/product2.jpeg";
+import product3 from "../assets/product3.jpeg";
+import product4 from "../assets/product4.jpeg";
 import { imageZoomEffect, TitleStyles } from "./ReusableStyles";
 export default function Products() {
   const data = [
     {
-      image: product1,
-      name: "Chilaquiles de la Casa Chica",
-      price: "$126.00",
-      description:"Chilaquiles Crujientes capeados con Huevo,Chorizo, Cebolla y queso , bañados en Salsa Roja servidos con frijoles refritos(Un poco picosos"
+      image: product2,
+      name: "Win65core Classic Burger",
+      price: "Empezando  desde $99.00",
+      description:"150gr de carne de res o pollo, queso americano, vegetales,pepinillos y aderezo win65core acompañada con nuestras salsas especiales opcion de doble y triple carne o la increible tamaño Superbowl"
     },
     {
-      image: product2,
-      name: "Rancheros OUI",
-      price: "$129.00",
-      description:"Tamales elaborados en Casa con Suculenta carne de Puerco en Adobo., Fritos y Servidos con Huevos al Gusto y Frijoles Fritos"
+      image: product1,
+      name: "15 Sabores de Alitas",
+      price: "$79.00 - $129.00",
+      description:"Alitas Picositas Buffalo con Distintos Sabores de Intensidad y Sabores Agradables de mas baja Intensidad"
     },
     {
       image: product3,
-      name: "Ponciano",
-      price: "$149.00",
-      description:"Carne con Chile y Papa , Receta Tipica del Campo"
+      name: "Pizzas con Variedad de Ingredientes",
+      price: "$89.00 - $149.00",
+      description:"Pizzas hechas en Casa con distinas combinaciones de Ingredientes Para Cenar"
     },
 
     {
       image: product4,
-      name: "Machaca Norteña con Huevo",
-      price: "$169.00",
-      description:" Platillo Regio carne seca importada de el Estado de Nuevo Leon hecha con Huevo Guisada con jitomate , cebolla y chile verde"
+      name: "Ensaladas",
+      price: "$99.00 - $150.00",
+      description:"Ensaladas, Sandwiches, y Variedad de Botanas"
     },
   ];
   return (
@@ -62,6 +62,7 @@ export default function Products() {
 const Section = styled.section`
   ${TitleStyles};
   .products {
+    fontFamily: 'Bungee Spice'
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 3rem;

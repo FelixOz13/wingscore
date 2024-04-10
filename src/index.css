@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bungee+Spice&display=swap');
 
 * {
   margin: 0;
@@ -12,8 +12,8 @@ html {
 }
 
 body {
-  font-family: "Marcellus SC", sans-serif;
-  background-image: url(https://cdn.wallpapersafari.com/33/33/THrAwV.jpg);
+  font-family: "Bungee Spice", sans-serif;
+  background-color:black;
   color:white;
 }
 
@@ -33,12 +33,12 @@ section {
 }
 
 ::-webkit-scrollbar {
-  background-color: darkred;
+  background-color: black;
   width: 0.4vw;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, goldenrod, brown, goldenrod);
+  background: linear-gradient(to bottom, yellow, black, yellow);
 }
 
 .show {

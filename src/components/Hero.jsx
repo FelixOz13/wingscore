@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-import hero from "../assets/hero.jpg";
-import heroDesign from "../assets/HeroDesign.png";
+import hero from "../assets/combos.jpeg";
+import heroDesign from "../assets/alitas.jpeg";
 export default function Hero() {
   return (
     <Section id="home">
@@ -14,9 +14,9 @@ export default function Hero() {
           
         </div>
         <div className="info">
-          <h2>Bienvenido</h2>
+          <h2>Sports Bar</h2>
           <h5>
-            Ven y Desayuna en un Lugar muy exlcusivo con 50 años de Tradicion
+            Ven a Probar Alitas, Botanas  Hamburguesas, Pizzas y Las Cervezas mas frias en Colonia cd del Sol!
           </h5>
           
         </div>

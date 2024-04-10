@@ -16,13 +16,13 @@ export default function Footer() {
           <ul>
              
             <li>
-              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/ouirestaurantbar/"
-              className='icons-instagram'>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/win65core/"
+              className='icons-instagram' style={{color:"yellow"}}>
               <FaInstagramSquare />
             </a>
             </li>
             <li>
-              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/RestaurantOui"
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/win65core"
               className='icons-fb'>
               <FaFacebook /></a>
             
@@ -34,12 +34,7 @@ export default function Footer() {
                </a>
               
             </li>
-          </ul>
-         <div>
-               <a target="_blank" rel="noreferrer" href="https://oui-sugerencias.netlify.app/">
-                <button className="suggest">Quejas y Sugerencias</button>
-               </a>
-             </div> 
+          </ul>         
         </div>
          
         
@@ -51,12 +46,11 @@ export default function Footer() {
           <div className="title">
             <h3>Contacto</h3>
           </div>
-          <p>+52 (33)615-36-41</p>
-          <p>+52 (33)615-06-14</p>
-          <p>ouirestaurant@yahoo.com</p>
-          <p>Lopez Cotilla # 2171
-            Col.Arcos Vallarta,
-          Zapopan, Jalisco C.P 44130</p>
+          <p>+52 (33)2305-0655</p>
+          
+          <p>isaotakata@hotmail.com</p>
+          <p>
+          Av Aztlán 3588-Int 13, Cd del Sol, 45050 Zapopan, Jal.</p>
         </div>
           
         <div className="contact container">
@@ -64,7 +58,7 @@ export default function Footer() {
             <h3>Acerca</h3>
           </div>
           <p>
-            Un lugar de tradición en Guadalajara, desde su inicio se ha caracterizado por su arquitectura y diseño, su decoración integra la calidez de la madera con el latón, que rodea todo el Restaurant, creando así un ambiente inigualable 
+            Un lugar para disfrutar de lo deportes y botanas y amistades en Ciudad del Sol!
           </p>
         </div>
       </Section>
@@ -75,8 +69,8 @@ export default function Footer() {
 
 const Section = styled.footer`
   margin: 0;
-  background: linear-gradient(to right,  darkred, #e85d04, darkred);
-  color: white;
+  background-color: yellow;
+  color: black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10vw;
@@ -101,7 +95,7 @@ const Section = styled.footer`
       transition: 0.3s ease-in-out;
       cursor: pointer;
       &:hover {
-        background-color: black;
+        background-color: yellow;
         svg {
           transform: scale(1.2);}
           }
@@ -111,7 +105,7 @@ const Section = styled.footer`
         display: flex;
         justify-content: center;
         align-items: center;
-        color: goldenrod;
+        color: yellow;
         font-size: 1.6rem;
         transition: 0.3s ease-in-out;
         &:hover {
@@ -161,13 +155,13 @@ const Section = styled.footer`
 styled.div`
   margin: 0;
   text-align: center;
-  background-color: black;
+  background-color: yellow;
   color: white;
   padding: 1rem;
 
   h2 {
     span {
-    color: #fc4958;
+    color:yellow;
     text - transform: uppercase;
   }
 }

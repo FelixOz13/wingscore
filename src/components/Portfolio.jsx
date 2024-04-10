@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import background from "../assets/portfolio.jpg";
+import background from "../assets/combos.jpeg";
 
 export default function Portfolio() {
   return (
@@ -9,7 +9,7 @@ export default function Portfolio() {
         <img src={background} alt="" />
       </div>
       <div className="content">
-        <h1>Desayunos Exquisitos y Pan Dulce Hecho en Casa </h1>
+        <h1>Cerveza Fria , Alitas Bufallo y Variedad de Platillos </h1>
         
         
         
